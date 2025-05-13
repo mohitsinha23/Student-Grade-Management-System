@@ -38,7 +38,7 @@ public class StudentGradeManager {
             int choice = sc.nextInt();
 
             if (choice == 1) {
-                sc.nextLine(); // consume newline
+                sc.nextLine();
                 System.out.print("Enter Name: ");
                 String name = sc.nextLine();
                 System.out.print("Enter Roll No: ");
